@@ -70,3 +70,4 @@ Both versions maintain a **conversation history** — each question and answer i
 | Model | gpt-4o-mini | gemini-1.5-flash |
 | History | Manual list append | `ChatSession` (auto) |
 | Free tier | Limited | Yes (Google AI Studio) |
+"# paris-travel-guide" 
