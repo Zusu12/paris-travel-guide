@@ -1,6 +1,6 @@
 # 🗼 Paris Travel Guide Chatbot
 
-A multi-turn AI chatbot that acts as a Paris travel guide — built with both **OpenAI (GPT-4o-mini)** and **Google Gemini (Gemini 1.5 Flash)**.
+> A beginner project built as I start diving into AI and LLM APIs — exploring how multi-turn conversations work across different AI providers.
 
 ---
 
@@ -11,7 +11,7 @@ paris-travel-guide/
 ├── openai/
 │   └── chatbot.py        # GPT-4o-mini version
 ├── gemini/
-│   └── chatbot.py        # Gemini 1.5 Flash version
+│   └── chatbot.py        # Gemini 2.5 Flash version
 ├── requirements.txt
 ├── .env.example          # Template for your API keys
 ├── .gitignore
@@ -67,7 +67,6 @@ Both versions maintain a **conversation history** — each question and answer i
 
 | Feature | OpenAI | Gemini |
 |---|---|---|
-| Model | gpt-4o-mini | gemini-1.5-flash |
-| History | Manual list append | `ChatSession` (auto) |
+| Model | gpt-4o-mini | gemini-2.5-flash |
+| History | Manual list append | `chats.create()` session |
 | Free tier | Limited | Yes (Google AI Studio) |
-"# paris-travel-guide" 
